@@ -1,6 +1,7 @@
 
 body {
     font-family: sans-serif;
+    margin: 0;
 }
 
 .container1 {
@@ -21,6 +22,7 @@ body {
     padding-right: 25px;
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 
 .container2 {
@@ -84,9 +86,67 @@ img {
 }
 
 .cajas div {
-    border: 5px solid #3882f6;
+    border: 5px solid  #1f2937;
     width: 150px;
     height: 150px;
     border-radius: 10%;
+    text-align: center;
+}
+
+.container4 {
+    box-sizing: border-box;
+    background: #e5e7eb;
+    color: #1f2937;
+    margin-top: 70px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container4 p {
+    width: 900px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author p {
+    font-size: 26px;
+    font-weight: 700;
+    text-align:right;
+}
+
+
+.padre-container5 {
+    display: flex;
+    justify-content: center;
+}
+
+.container5 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    background: #3882f6;
+    width: 800px;
+    height: 130px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.texto-grande {
+    color: #e5e7eb;
+}
+
+.texto-pequeño {
+    color: #cfcfcf;
+}
+
+footer {
+    background: #1f2937;
+    padding: 50px;
+    color: #e5e7eb;
     text-align: center;
 }
