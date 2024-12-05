@@ -2,6 +2,10 @@
 
 Este repositorio contiene el código para una landing page desarrollada con HTML y CSS. La página está diseñada para ser moderna y responsiva, destacando elementos clave como encabezados, secciones informativas, y llamados a la acción.
 
+## Cómo Usarlo
+
+link: https://giovannim01.github.io/Landing-Page/
+
 ## Estructura del Proyecto
 
 ### Archivos Principales
